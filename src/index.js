@@ -10,23 +10,18 @@ import {
 
 const MyMapComponent = compose(
   withProps({
-    /**
-     * Note: create and replace your own key in the Google console.
-     * https://console.developers.google.com/apis/dashboard
-     * The key "AIzaSyBkNaAGLEVq0YLQMi-PYEMabFeREadYe1Q" can be ONLY used in this sandbox (no forked).
-     */
     googleMapURL:
       "https://maps.googleapis.com/maps/api/js?key=AIzaSyDzjp9XUlSD-2314ouiduhgg1dvnI-BZTU&v=3.exp&libraries=geometry,drawing,places",
     loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <div style={{ height: `400px` }} />,
+    containerElement: <div style={{ height: `95vh` }} />,
     mapElement: <div style={{ height: `100%` }} />
   }),
   withScriptjs,
   withGoogleMap
 )(props => (
-  <GoogleMap defaultZoom={8} defaultCenter={{ lat: 25.802973, lng: -80.204346 }}>
+  <GoogleMap defaultZoom={15} defaultCenter={{ lat: 25.803072, lng: -80.204494 }}>
     {props.isMarkerShown && (
-      <Marker position={{ lat: 25.802973, lng: -80.204346 }} />
+      <Marker position={{ lat: 25.803072, lng: -80.204494 }} />
     )}
   </GoogleMap>
 ));
