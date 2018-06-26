@@ -12,11 +12,16 @@ class Restaurant extends Component {
     // })
 
     return (
-      <div className = ''>
+      <div className = 'resButtonDiv'>
         {
           this.props.data.map( (item) => {
-            return <button type="button">{item.name}</button>
+            return (<button type="button" class="buttonz" >{item.name}</button>)
           })
+        }
+        {
+          // this.props.data.map( (item) => {
+          //   return (<li>{item.lat}</li>)
+          // })
         }
       </div>
     )

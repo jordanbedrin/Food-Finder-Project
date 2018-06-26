@@ -10,7 +10,7 @@ class Header extends Component {
   }
 
   render() {
-console.log("our data is ", this.props.data.subs[0].name);
+// console.log("our data is ", this.props.data.subs[0].name);
     return (
       <div id = 'header'>
       <h1> Choose a Food Category! </h1>

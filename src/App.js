@@ -4,6 +4,7 @@ import Map from './components/Map';
 import Buttons from './components/Buttons';
 import Restaurant from './components/Restaurant';
 import db from './db';
+import UpperPage from './components/UpperPage';
 
 import './index.css';
 
@@ -14,27 +15,14 @@ import './index.css';
 
 
 class App extends Component{
-  constructor(){
-    super()
-    this.state = {
-      category: "subs"
-    }
-    this.changeCategory = this.changeCategory.bind(this)
-  }
 
-  changeCategory(ev){
-      this.setState( {
-        category: ev.target.textContent.toLowerCase().slice(0,-1)
-      })
-  }
 
   render(){
 
     return(
       <div>
 
-      < Header data = {db} changeCategory={this.changeCategory}/>
-      < Restaurant data = { db[this.state.category] }/>
+      < UpperPage />
       < Map/>
       </div>
     );
