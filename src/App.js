@@ -22,7 +22,7 @@ class App extends Component{
     return(
       <div>
       < UpperPage />
-      < Map/>
+      < Map />
       </div>
     );
   }

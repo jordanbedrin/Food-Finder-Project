@@ -16,6 +16,7 @@ const MyMapComponent = compose(
      * https://console.developers.google.com/apis/dashboard
      * The key "AIzaSyBkNaAGLEVq0YLQMi-PYEMabFeREadYe1Q" can be ONLY used in this sandbox (no forked).
      */
+
     googleMapURL:
       "https://maps.googleapis.com/maps/api/js?key=AIzaSyDzjp9XUlSD-2314ouiduhgg1dvnI-BZTU&v=3.exp&libraries=geometry,drawing,places",
     loadingElement: <div style={{ height: `100%` }} />,
@@ -25,9 +26,9 @@ const MyMapComponent = compose(
   withScriptjs,
   withGoogleMap
 )(props => (
-  <GoogleMap defaultZoom={17} defaultCenter={{ lat: 25.802973, lng: -80.204346 }}>
+  <GoogleMap defaultZoom={17} defaultCenter={{ lat: 25.802846, lng: -80.204348 }}>
     {props.isMarkerShown && (
-      <Marker position={{ lat: 25.802973, lng: -80.204346 }} />
+      <Marker position={{ lat: 25.802846, lng: -80.204348 }} />
     )}
   </GoogleMap>
 ));
