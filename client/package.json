@@ -12,15 +12,9 @@
     "recompose": "^0.27.1"
   },
   "scripts": {
-    "start" : "node index.js",
-    "start:dev": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "proxy": "http://localhost:5000/",
-  "main": "index.js",
-  "repository": "https://github.com/angeloscar/fudgebucket",
-  "author": "Jordan Bedrin <jordanbedrin@aol.com>",
-  "license": "MIT"
+  }
 }
