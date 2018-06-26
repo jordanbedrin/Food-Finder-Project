@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from './Header';
 import Restaurant from './Restaurant';
+import ResData from './ResData';
 import db from '../db';
 
 class UpperPage extends Component{
@@ -8,9 +9,12 @@ class UpperPage extends Component{
   constructor(){
     super()
     this.state = {
-      category: "subs"
+      category: "subs",
+      selectedRes: {},
+      db: db
     }
-    this.changeCategory = this.changeCategory.bind(this)
+    this.changeCategory = this.changeCategory.bind(this);
+    this.changeRes = this.changeRes.bind(this);
   }
 
   changeCategory(ev){
@@ -19,11 +23,23 @@ class UpperPage extends Component{
       })
   }
 
+  changeRes(name){
+    let res = this.state.db[this.state.category].find(restaurant => {
+      if(restaurant.name === name) {
+        return restaurant;
+      }
+    })
+    this.setState({
+      selectedRes: res
+    })
+  }
+
   render() {
     return(
       <div className = "upper">
-        <Header data = {db} changeCategory={this.changeCategory} />
-        <Restaurant data = { db[this.state.category] } />
+        <Header data = {db}  changeCategory={this.changeCategory} />
+        <Restaurant changeRes={this.changeRes} data = { db[this.state.category] } />
+        < ResData rest = {this.state.selectedRes} />
       </div>
     )
   }

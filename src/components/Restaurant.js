@@ -15,7 +15,7 @@ class Restaurant extends Component {
       <div className = 'resButtonDiv'>
         {
           this.props.data.map( (item) => {
-            return (<button type="button" class="buttonz" >{item.name}</button>)
+            return (<button type="button" class="buttonz" onClick={() => this.props.changeRes(item.name)}>{item.name}</button>)
           })
         }
         {

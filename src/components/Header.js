@@ -21,7 +21,7 @@ class Header extends Component {
           <button type="button" onClick={console.log("heeeey")}>Dessert!</button>
         </div>
         <div>
-          <button type="button" id = "gobutton">Fudge On!</button>
+          
         </div>
         <div>
 
