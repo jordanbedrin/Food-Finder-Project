@@ -6,11 +6,11 @@ class ResData extends Component{
       <div className="resDataDiv">
       <p> {this.props.rest.name} </p>
       <p> {this.props.rest.rating} </p>
+      <p> {this.props.rest.pricing} </p>
       <p> {this.props.rest.desc} </p>
       <p> {this.props.rest.review} </p>
       <p> {this.props.rest.address} </p>
       <p> {this.props.rest.phone} </p>
-      <p> {this.props.rest.pricing} </p>
       </div>
     )
   }
