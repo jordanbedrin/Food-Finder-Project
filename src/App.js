@@ -19,12 +19,11 @@ class App extends Component{
 
   render(){
     return(
-
       <BrowserRouter>
         <div>
-        { < Home />
+        {/* < Home />
         < UpperPage />
-        < Map/> }
+        < Map/> */}
 
 {/* // write a new component that is going to render both map & upper page in the same component
  */}
@@ -32,10 +31,9 @@ class App extends Component{
 
         <Route exact path='/' component={Home}/>
         <Route path="/map" component={Map} />
-
+        
         </div>
       </BrowserRouter>
-
     );
   }
 }
