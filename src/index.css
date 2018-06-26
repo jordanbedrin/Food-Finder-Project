@@ -4,6 +4,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: black;
+  color: aliceblue;
+ 
 }
 
 #map{
@@ -67,17 +70,12 @@ button {
 
 }
 
+/* Home Page CSS */
 
-
-
-
-
-.resButtonDiv{
-
-  /* float: right;
-  margin-left: 28%;
-  /* border-radius: 10px; */
-
-
-
+.navbar {
+  background: white;
 }
+
+
+
+

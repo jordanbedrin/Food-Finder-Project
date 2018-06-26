@@ -1,8 +1,39 @@
 import React from 'react';
 
+
 class Home extends React.Component {
  render() {
-   return <p> Stupid Effin' Home Page... Landing page in progress...don't panic, everything is still here...just need to link it up </p>
+   return (
+   <div>
+  
+    <div class = "navbar">Effin' Food Finder</div>
+    
+    
+    <div class = "title">Fudge Bucket Food Finder</div>
+    
+    
+    <div class = "callToAction">Fudge it up!</div>
+    
+    
+    <div class = "landing"> </div>
+    
+    
+    <div class = "trending"> </div>
+
+
+
+    <div class = "trendingPics"> </div>
+
+
+    {/* <div class = ""> </div>
+
+    <div class = ""> </div> */}
+  
+
+
+   
+   </div>
+   ) 
  }
 }
 export default Home;
