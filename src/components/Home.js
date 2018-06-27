@@ -11,7 +11,7 @@ class Home extends React.Component {
     <div className = "Navbar">
       <nav>
         <ul>
-          <li><a class="waves-effect waves-teal btn-flat">Search</a></li>
+          <li>Search</li>
           <li>Favorites</li>
           <li>Trending</li>
           <li>Fudge It</li>
@@ -21,8 +21,10 @@ class Home extends React.Component {
 
 
     <div className = "CallToAction">
-      <div className="logo">
-        <img src="http://oi67.tinypic.com/13z0pqv.jpg" alt="logo pic"/>
+
+      <div className="logo"> 
+        <img src="https://i.imgur.com/6wKWr7J.png" alt="logo pic"/> 
+
       </div>
 
       <div className="Homeform">
@@ -30,7 +32,7 @@ class Home extends React.Component {
           <label>
             <input type="text" name="name" />
             </label>
-            <input type="submit" value="Submit" />
+            <a class="waves-effect waves-light btn"><input type="submit" value="Submit" /></a>
         </form>
       </div>
 
@@ -48,9 +50,7 @@ class Home extends React.Component {
     <div className = "trendingPics"> </div>
 
 
-    {/*
-
-    <div className = ""> </div> */}
+    <div className = "HomeFooter"> </div>
 
    </div>
    )
