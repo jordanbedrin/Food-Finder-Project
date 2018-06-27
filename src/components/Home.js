@@ -30,7 +30,7 @@ class Home extends React.Component {
           <label> 
             <input type="text" name="name" />
             </label>
-            <input type="submit" value="Submit" />
+            <a class="waves-effect waves-light btn"><input type="submit" value="Submit" /></a>
         </form>
       </div>
       

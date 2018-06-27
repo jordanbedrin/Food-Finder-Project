@@ -17,11 +17,11 @@ class Header extends Component {
         <div id = "buttons">
           <button type="button" onClick={this.props.changeCategory}>Subs!</button>
           <button type="button" onClick={this.props.changeCategory}>Mexican!</button>
-          <button type="button" onClick={console.log("heeeey")}>Healthy!</button>
-          <button type="button" onClick={console.log("heeeey")}>Dessert!</button>
+          <button type="button" onClick={this.props.changeCategory}>Healthy!</button>
+          <button type="button" onClick={this.props.changeCategory}>Dessert!</button>
         </div>
         <div>
-          
+
         </div>
         <div>
 
