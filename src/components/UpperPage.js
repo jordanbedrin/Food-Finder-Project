@@ -5,6 +5,7 @@ import ResData from './ResData';
 import db from '../db';
 import Map from './Map';
 
+
 class UpperPage extends Component{
 
   constructor(){
@@ -43,7 +44,7 @@ class UpperPage extends Component{
         <Restaurant changeRes={this.changeRes} data = { db[this.state.category] } />
         <ResData rest = {this.state.selectedRes} />
       </div>
-      <div>
+      <div className="MapComponent">
         < Map rest = {this.state.selectedRes} />
       </div>
     </div>
