@@ -2,7 +2,7 @@
  
  .Homebkgd {
     background-image: url("../assets/burgerhero.jpg");
-    height: 100vh;
+    height: 95vh;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -21,12 +21,13 @@
     z-index: -5;
 }
 
-.Navbar {
-    background: black;
-    height: 50px;
-  }
   
-  .navbar h1 {
+ nav {
+     background-color: #512410;
+     z-index: 3;
+ }
+
+  .Navbar h1 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0 2em 2em;
   margin: 0 0 2em 0;
@@ -59,22 +60,35 @@
 }
 
 .CallToAction {
-    background: #0C0705;
-    width: 575px;
-    height: 600px;
+    background: white;
+   
+    width: 35%;
     border-radius: 2%;
     margin: 5em 6em 6em 10em;
-    padding: 0 0 20px 50px;
+    padding: 0 0 20px 35px;
+    z-index: -5;
 }
 
 .logo {
-    height: 50%;
-    margin: 0 50px 200px 0;
+    max-width: 100%;
+    height: auto;
+    padding-left: 80px;
+    display:block; 
 }
 
 .Homeform {
-    color: pink;
     background: white;
     width: 90%;
     padding: 0 0 20px 20px;
+}
+
+.HomeFooter {
+    height: 50px;
+    background: #512410;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: -3;
 }
