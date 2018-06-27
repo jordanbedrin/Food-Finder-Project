@@ -22,22 +22,28 @@ const MyMapComponent = compose(
     loadingElement: <div style={{ height: `100%` }} />,
     containerElement: <div style={{ height: `800px` }} />,
     mapElement: <div id = "map" style={{ height: `100%` }} />
+
   }),
   withScriptjs,
   withGoogleMap
-)(props => (
-  <GoogleMap defaultZoom={17} defaultCenter={{ lat: 25.802846, lng: -80.204348 }}>
+)(props => {
+  if(props.rest.lat){
+    console.log(typeof(parseFloat(props.rest.lat)))
+  }
+  return(
+  <GoogleMap defaultZoom={20} center={{ lat: parseFloat(props.rest.lat), lng: parseFloat(props.rest.lng) }}>
     {props.isMarkerShown && (
-      <Marker position={{ lat: 25.802846, lng: -80.204348 }} />
+      <Marker position={{ lat: parseFloat(props.rest.lat), lng: parseFloat(props.rest.lng)}} />
     )}
   </GoogleMap>
-));
+  )
+});
 
 
 class Map extends Component{
-  render() {
+  render() { console.log();
     return(
-      <MyMapComponent isMarkerShown />
+      <MyMapComponent isMarkerShown rest={this.props.rest}  />
     )
   }
 }

@@ -3,6 +3,7 @@ import Header from './Header';
 import Restaurant from './Restaurant';
 import ResData from './ResData';
 import db from '../db';
+import Map from './Map';
 
 class UpperPage extends Component{
 
@@ -36,11 +37,16 @@ class UpperPage extends Component{
 
   render() {
     return(
+      <div>
       <div className = "upper">
         <Header data = {db}  changeCategory={this.changeCategory} />
         <Restaurant changeRes={this.changeRes} data = { db[this.state.category] } />
-        < ResData rest = {this.state.selectedRes} />
+        <ResData rest = {this.state.selectedRes} />
       </div>
+      <div>
+        < Map rest = {this.state.selectedRes} />
+      </div>
+    </div>
     )
   }
 }

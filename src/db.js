@@ -4,8 +4,8 @@ module.exports = {
 //SUB Restaurants
   "subs": [
     { "name": "Subs On The Run",
-      "lat": "25.8013805197085",
-      "lng": "-80.2085697302915",
+      "lat": "25.802749",
+      "lng": "-80.207153",
       "rating": 4.7 + " stars",
       "desc": "Counter-serve pit stop dispensing hearty hot & cold subs, plus salads, tater tots & breakfast.",
       "review":"Customer Review: " +  "\"Best place in Miami for subs. Fresh and on point. I've been eating quality subs here for over 15 years. Great family run business\"",
