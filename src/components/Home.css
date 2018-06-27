@@ -1,0 +1,80 @@
+ /* Home Page CSS */
+ 
+ .Homebkgd {
+    background-image: url("../assets/burgerhero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    z-index: -10;
+   }
+
+.HomebkgdOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+
+.Navbar {
+    background: black;
+    height: 50px;
+  }
+  
+  .navbar h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 2em 2em;
+  margin: 0 0 2em 0;
+  }
+    
+
+.Navbar ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 37px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.Navbar  ul li {
+    font-weight: 400;
+    padding: 7px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.Navbar ul li:hover {
+    background: #e50914;
+    cursor: pointer;
+}
+
+.CallToAction {
+    background: #0C0705;
+    width: 575px;
+    height: 600px;
+    border-radius: 2%;
+    margin: 5em 6em 6em 10em;
+    padding: 0 0 20px 50px;
+}
+
+.logo {
+    height: 50%;
+    margin: 0 50px 200px 0;
+}
+
+.Homeform {
+    color: pink;
+    background: white;
+    width: 90%;
+    padding: 0 0 20px 20px;
+}
