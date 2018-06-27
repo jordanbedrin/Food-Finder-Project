@@ -21,25 +21,25 @@ class Home extends React.Component {
 
 
     <div className = "CallToAction">
-      <div className="logo"> 
-        <img src="http://oi67.tinypic.com/13z0pqv.jpg" alt="logo pic"/> 
+      <div className="logo">
+        <img src="http://oi67.tinypic.com/13z0pqv.jpg" alt="logo pic"/>
       </div>
-     
+
       <div className="Homeform">
         <form>
-          <label> 
+          <label>
             <input type="text" name="name" />
             </label>
             <input type="submit" value="Submit" />
         </form>
       </div>
-      
+
     </div>
 
 
-    {/* <div className = "landing">dgfhh 
+    {/* <div className = "landing">dgfhh
     </div> */}
-      
+
 
     <div className = "trending"> </div>
 
@@ -48,7 +48,7 @@ class Home extends React.Component {
     <div className = "trendingPics"> </div>
 
 
-    {/* 
+    {/*
 
     <div className = ""> </div> */}
 
