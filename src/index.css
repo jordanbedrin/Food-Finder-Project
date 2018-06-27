@@ -81,3 +81,8 @@ button {
   margin-top: 6%;
   color: black;
 }
+
+.rating{
+  color: #e8d33c;
+  font-weight: bold;
+}
