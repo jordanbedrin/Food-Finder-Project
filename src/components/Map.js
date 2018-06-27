@@ -25,7 +25,7 @@ const MyMapComponent = compose(
     console.log(typeof(parseFloat(props.rest.lat)))
   }
   return(
-  <GoogleMap defaultZoom={20} center={{ lat: parseFloat(props.rest.lat), lng: parseFloat(props.rest.lng) }}>
+  <GoogleMap defaultZoom={20} center={{ lat: parseFloat(props.rest.lat || 25.802843), lng: parseFloat(props.rest.lng || -80.204356) }}>
     {props.isMarkerShown && (
       <Marker position={{ lat: parseFloat(props.rest.lat), lng: parseFloat(props.rest.lng)}} />
     )}
