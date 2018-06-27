@@ -8,6 +8,7 @@ import UpperPage from './components/UpperPage';
 import Home from './components/Home';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 import './index.css';
+import MainPage from './components/MainPage';
 
 
 
@@ -21,7 +22,7 @@ class App extends Component{
     return(
       <BrowserRouter>
         <div>
-        {/* < Home />
+         {/* // < Home />
         < UpperPage />
         < Map/> */}
 
@@ -30,8 +31,8 @@ class App extends Component{
 
 
         <Route exact path='/' component={Home}/>
-        <Route path="/map" component={Map} />
-        
+        <Route path="/map" component={MainPage} />
+
         </div>
       </BrowserRouter>
     );
