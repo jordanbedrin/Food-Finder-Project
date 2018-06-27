@@ -1,13 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  /* background:rgba(242,246,248,1); */
-  background:  linear-gradient(to right, rgba(181,198,208,1) 7%, rgba(230,237,240,1) 24%, rgba(242,246,248,1) 28%, rgba(216,225,231,1) 79%, rgba(224,239,249,1) 86%);
-  color: aliceblue;
-
+  color: 512410;
+  font-family: 'Roboto', sans-serif;
+  background: aliceblue;
 }
 /* 
 #map{
@@ -54,7 +53,7 @@ button {
 
 .upper{
   position: relative;
-  background: linear-gradient(to bottom, #00ccff 0%, #3366ff 100%);
+  background: white;
   height: 200px;
   width: 49.5%;
   font-size: 50px;
@@ -62,6 +61,7 @@ button {
   right: 2px;
   border: 0.5px solid black;
   border-radius: 3px;
+  background: aliceblue;
 }
 
 .buttonz{
@@ -77,14 +77,40 @@ button {
 }
 
 
+
 .resDataDiv{
   font-size: 0.4em;
   margin-left: 3%;
   margin-top: 4%;
   color: black;
-  margin-right: 3%;
+  height: 250px;
+  width: 550px;
+  margin: 0 auto;
+  /* background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running, paused; */
 }
 
+/* @keyframes stretch {
+  0% {
+    transform: scale(.1);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(.85);
+    background-color: yellow;
+  }
+} */
 
 
 .ResName{
