@@ -80,16 +80,16 @@ button {
 
 .resDataDiv{
   font-size: 0.4em;
-  margin-left: 3%;
-  margin-top: 4%;
   color: black;
   height: 250px;
   width: 550px;
   margin: 0 auto;
+  margin-top: 5%;
+  /* margin-left: 8%; */
   /* background-color: red;
   animation-name: stretch;
-  animation-duration: 1.5s; 
-  animation-timing-function: ease-out; 
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -116,6 +116,7 @@ button {
 .ResName{
   font-size: 1.2em;
   font-weight: bold;
+  text-align: center;
 }
 
 .resDataDiv p{
@@ -135,6 +136,7 @@ button {
   color: #e8d33c;
   font-size: 0.8em;
   font-weight: bold;
+  text-align: center;
 }
 
 @media (min-width: 1000px) {
