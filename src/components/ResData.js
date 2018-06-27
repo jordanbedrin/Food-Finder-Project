@@ -4,7 +4,7 @@ class ResData extends Component{
   render() {
     return(
       <div className="resDataDiv">
-      <p> {this.props.rest.name} </p>
+      <p className = "ResName"> {this.props.rest.name} </p>
       <p className = "rating"> {this.props.rest.rating} </p>
       {/* <p> {this.props.rest.pricing} </p> */}
       <p> {this.props.rest.desc} </p>
