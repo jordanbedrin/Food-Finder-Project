@@ -6,7 +6,6 @@ body {
   font-family: sans-serif;
   background:rgba(242,246,248,1);
   color: aliceblue;
-
 }
 
 #map{
@@ -81,11 +80,4 @@ button {
   margin-left: 2%;
   margin-top: 6%;
   color: black;
-}
-
-/* Home Page CSS */
-
-
-.navbar {
-  background: white;
 }
