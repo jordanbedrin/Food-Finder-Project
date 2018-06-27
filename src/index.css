@@ -7,12 +7,13 @@ body {
   /* background:rgba(242,246,248,1); */
   background:  linear-gradient(to right, rgba(181,198,208,1) 7%, rgba(230,237,240,1) 24%, rgba(242,246,248,1) 28%, rgba(216,225,231,1) 79%, rgba(224,239,249,1) 86%);
   color: aliceblue;
-}
 
+}
+/* 
 #map{
   width:50%;
   height: 200%;
-}
+} */
 
 /* #header{
   position: relative;
@@ -107,3 +108,11 @@ button {
   font-size: 0.8em;
   font-weight: bold;
 }
+
+@media (min-width: 1000px) {
+
+  #map {
+      height: 20%;
+      }
+  }
+  

@@ -8,7 +8,7 @@
     position: relative;
     top: 0;
     bottom: 0;
-    z-index: -10;
+    /* z-index: -10; */
    }
 
 .HomebkgdOverlay {
@@ -18,16 +18,16 @@
     bottom: 0;
     height: 100%;
     width: 100%;
-    z-index: -5;
+    /* z-index: -5; */
 }
 
   
  nav {
      background-color: #512410;
-     z-index: 3;
+     /* z-index: 3; */
  }
 
-  .Navbar h1 {
+.Navbar h1 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0 2em 2em;
   margin: 0 0 2em 0;
@@ -61,21 +61,17 @@
 
 .CallToAction {
     background: white;
-   
-    width: 35%;
+    width:100%;
+    height: auto;
     border-radius: 2%;
-    margin: 5em 6em 6em 10em;
-    padding: 50px 0 20px 35px;
-    z-index: -5;
+    /* z-index: -5; */
 }
 
 .logo {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    padding-left: 80px;
     display:block; 
-    margin: 0 10px;
-
+    text-align: center;
 }
 
 .Homeform {
@@ -92,5 +88,17 @@
     bottom: 0;
     width: 100%;
     text-align: center;
-    z-index: -3;
+    /* z-index: -3; */
+}
+
+.button1 {
+    text-align: center; 
+}
+
+@media (min-width: 500px) {
+
+.CallToAction {
+    width: 500px;
+    margin: 3em auto;
+    }
 }

@@ -22,21 +22,15 @@ class App extends Component{
     return(
       <BrowserRouter>
         <div>
-         {/* // < Home />
-        < UpperPage />
-        < Map/> */}
-
-{/* // write a new component that is going to render both map & upper page in the same component
- */}
-
-
         <Route exact path='/' component={Home}/>
         <Route path="/map" component={MainPage} />
-
         </div>
       </BrowserRouter>
     );
+  
+  
   }
+  
 }
 
 export default App;
