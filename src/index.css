@@ -6,10 +6,11 @@ body {
   font-family: sans-serif;
   /* background:rgba(242,246,248,1); */
   background:  linear-gradient(to right, rgba(181,198,208,1) 7%, rgba(230,237,240,1) 24%, rgba(242,246,248,1) 28%, rgba(216,225,231,1) 79%, rgba(224,239,249,1) 86%);
+  background-image: url("https://78.media.tumblr.com/20b34e8d12d4230f9b362d7feb148c57/tumblr_oiwytz4dh41tf8vylo1_1280.png");
   color: aliceblue;
 
 }
-/* 
+/*
 #map{
   width:50%;
   height: 200%;
@@ -97,7 +98,9 @@ button {
 }
 
 .resDataDiv p:hover{
-  background: #d9e1e2;
+  /* background: #d9e1e2; */
+  /* background: #bed3e5; */
+  background: #c4daed;
   /* font-weight: 600; */
   transform: scale(1.005);
 }
@@ -115,7 +118,7 @@ button {
       height: 20%;
       }
   }
-  
+
 
 /* .MapComponent{
   background-image: url("https://cdn.shopify.com/s/files/1/1026/5861/products/beagle-chef.jpg?v=1525664866");
