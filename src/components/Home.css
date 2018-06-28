@@ -21,7 +21,6 @@
     /* z-index: -5; */
 }
 
-  
  nav {
      background-color: #512410;
      /* z-index: 3; */
@@ -31,39 +30,16 @@
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: bold;
     font-size: 3em;
-  padding: .3em 0 0 0;
-  margin: 0 0 2em 0;
-  text-align: center;
+    padding: .3em 0 0 0;
+    margin: 0 0 2em 0;
+    text-align: center;
   }
-    
-
-/* .Navbar ul {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    height: 37px;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 0 10px;
-}
-
-.Navbar  ul li {
-    font-weight: 400;
-    padding: 7px 10px;
-    font-size: 14px;
-    border-radius: 3px;
-} */
-
 
 .CallToAction {
     background: white;
     width:100%;
     height: auto;
     border-radius: 2%;
-    /* z-index: -5; */
 }
 
 .logo {

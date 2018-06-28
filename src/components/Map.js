@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import ReactDOM from "react-dom";
 import { compose, withProps } from "recompose";
 import {
   withScriptjs,
@@ -44,7 +43,3 @@ class Map extends Component{
 
 export default Map;
 
-
-
-// ReactDOM.render( <MyMapComponent isMarkerShown />, document.getElementById("root"));
-// ReactDOM.render( <App />, document.getElementById("root"));

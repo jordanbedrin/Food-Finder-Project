@@ -1,8 +1,4 @@
 import React, {Component} from 'react';
-import axios from 'axios';
-import db from '../db';
-
-
 
 class Header extends Component {
   constructor(){
