@@ -46,6 +46,7 @@ class UpperPage extends Component{
             <div className = "button2">
               <Link class="waves-effect waves-light btn" to="/"><input type="submit" value="Home" /></Link>
             </div>
+            <h1>FUDGEBUCKET</h1>
           </nav>
         </div>
 

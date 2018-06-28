@@ -12,19 +12,16 @@ class Home extends React.Component {
 
     <div className = "Navbar">
       <nav>
-        {/* <ul>
-          <li>Search</li>
-          <li>Favorites</li>
-          <li>Trending</li>
-          <li>Fudge It</li>
-        </ul> */}
+          <h1>FUDGEBUCKET</h1>
       </nav>
     </div>
 
 
     <div className = "CallToAction">
       <div className="logo"> 
-        <img src="https://i.imgur.com/6wKWr7J.png" alt="logo pic"/>
+        <img src="https://i.imgur.com/cZ2S43Z.png" alt="logo pic"/> 
+        <h2>Find Food Fast </h2>
+        
       </div>
       <div className="Homeform">
         <form>
